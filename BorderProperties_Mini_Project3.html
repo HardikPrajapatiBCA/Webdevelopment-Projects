@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Work</title>
+	<style>
+		div
+		{
+			height: 500px;
+			width:1300px;
+			border: 5px dashed wheat;
+		}
+		#case1
+		{
+			height: 100px;
+			width: 120px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 15px;
+			border: 2px solid;
+			border-radius: 10px;
+			border-top-color: salmon;
+			border-bottom-color: green;
+			border-right-color: yellow;
+			border-left-color: cyan;
+		}
+		#case2
+		{
+			height: 100px;
+			width: 120px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 15px;
+			border: 5px outset;
+			border-radius: 15px;
+			border-top-color: red;
+			border-bottom-color: green;
+			border-right-color: yellow;
+			border-left-color: blueviolet;
+		}
+		#case3
+		{
+			height: 100px;
+			width: 120px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 15px;
+			border: 5px inset;
+			border-radius: 25px;
+			border-top-color: salmon;
+			border-bottom-color: green;
+			border-right-color: yellow;
+			border-left-color: cyan;
+		}
+		#case4
+		{
+			height: 100px;
+			width: 120px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 15px;
+			border: 5px solid;
+			border-radius: 35px;
+			border-top-color: salmon;
+			border-bottom-color: green;
+			border-right-color: yellow;
+			border-left-color: blue;
+		}
+		#case5
+		{
+			height: 100px;
+			width: 110px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 15px;
+			border: 5px ridge;
+			border-radius: 35px 85px 0px 0px;
+			border-top-color: salmon;
+			border-bottom-color: whitesmoke;
+			border-right-color: yellow;
+			border-left-color: blue;
+		}
+		#case6
+		{
+			height: 100px;
+			width: 120px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 15px;
+			border: 8px outset;
+			border-top-left-radius:25px ;
+			border-top-right-radius: 70px;
+			border-bottom-left-radius:80px ;
+			border-bottom-right-radius: 0px;
+			border-top-color: salmon;
+			border-bottom-color: green;
+			border-right-color: yellow;
+			border-left-color: cyan;
+		}
+		#case7
+		{
+			height: 85px;
+			width: 120px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 15px;
+			border: 3px groove;
+			border-radius: 110px 110px 110px 110px;
+			border-top-color: salmon;
+			border-bottom-color: green;
+			border-right-color: yellow;
+			border-left-color: cyan;
+		}
+		#case8
+		{
+			height: 100px;
+			width: 120px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 20px;
+			border: 4px outset;
+			border-top-left-radius:100px ;
+			border-top-right-radius: 100px;
+			border-bottom-left-radius:0px ;
+			border-bottom-right-radius: 0px;
+			border-top-color: orange;
+			border-bottom-color: green;
+			border-right-color: yellow;
+			border-left-color: darkblue;
+		}
+		#case9
+		{
+			height: 100px;
+			width: 120px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 20px;
+			border: 30px inset;
+			border-radius: 25px;
+			border-top-color: red;
+			border-bottom-color: green;
+			border-right-color: yellow;
+			border-left-color: dodgerblue;
+		}
+		#case10
+		{
+			height: 100px;
+			width: 150px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 20px;
+			border: 50px outset;
+			border-radius: 40px;
+			border-top-color: red;
+			border-bottom-color: green;
+			border-right-color: yellow;
+			border-left-color: dodgerblue;
+		}
+		.case1
+		{
+			height: 100px;
+			width: 120px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 15px;
+			border: 2px solid white;
+			background: repeating-linear-gradient(orange 25%, red 50%, orange 25% ,red 50%);
+			border-radius: 15px;
+		}
+		.case2
+		{
+			height: 100px;
+			width: 120px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 15px;
+			border: 2px solid white;
+			background:linear-gradient(orange 35%, red 50%, orange 35% ,red 50%);
+			border-radius: 15px;
+		}
+		.case3
+		{
+			height: 100px;
+			width: 120px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 15px;
+			border: 2px solid white;
+			background:linear-gradient(orange 35%, red 50%, orange 35% ,red 50%);
+			border-radius: 25px;
+		}
+		.case4
+		{
+			height: 100px;
+			width: 120px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 15px;
+			border: 2px solid white;
+			background:linear-gradient(orange 25%, red 50%, orange 25% ,red 50%);
+			border-radius: 35px;
+		}
+		.case5
+		{
+			height: 100px;
+			width: 120px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 15px;
+			border: 2px solid white;
+			background:linear-gradient(orange 45%, red 50%, orange 45% ,red 50%);
+			border-radius: 25px 80px 0px 0px;
+		}
+		.case6
+		{
+			height: 100px;
+			width: 120px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 15px;
+			border: 2px solid white;
+			background:conic-gradient( red 45%, orange 50%, red 45% ,orange 50%);
+			border-top-left-radius:25px ;
+			border-top-right-radius:75px ;
+			border-bottom-left-radius:100px ;
+			border-bottom-right-radius: 15px;
+		}
+		.case7
+		{
+			height: 100px;
+			width: 150px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 25px;
+			border: 2px solid white;
+			background:linear-gradient(orange 45%, red 50%, orange 45% ,red 50%);
+			border-radius: 150px 110px 150px 90px;
+		}
+		.case8
+		{
+			height: 100px;
+			width: 150px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 25px;
+			border: 2px solid white;
+			background:linear-gradient(orange 45%, red 50%, orange 45% ,red 50%);
+			border-radius: 150px 150px 0px 0px;
+		}
+		.case9
+		{
+			height: 100px;
+			width: 150px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 40px;
+			border: 2px solid white;
+			background:linear-gradient(orange 45%, red 50%, orange 45% ,red 50%);
+			border-radius: 150px 0px 150px 0px;
+		}
+		.case10
+		{
+			height: 150px;
+			width: 150px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 25px;
+			border: 2px solid white;
+			background:linear-gradient(orange 45%, red 50%, orange 45% ,red 50%);
+			border-radius: 40px 50px 50px 40px;
+		}
+		#Case1
+		{
+			height: 100px;
+			width: 120px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 15px;
+			border: 3px solid wheat;
+			border-radius: 10px;
+			background:linear-gradient(orange 45%, red 50%, orange 45% ,red 50%);
+			border-top-color: wheat;
+			border-bottom-color: wheat;
+			border-right-color: wheat;
+			border-left-color: wheat;
+		}
+		#Case2
+		{
+			height: 100px;
+			width: 120px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 15px;
+			border: 5px outset;
+			border-radius: 15px;
+			background:linear-gradient(orange 45%, red 50%, orange 45% ,red 50%);
+			border-top-color: wheat;
+			border-bottom-color: wheat;
+			border-right-color: wheat;
+			border-left-color: wheat;
+		}
+		#Case3
+		{
+			height: 100px;
+			width: 120px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 15px;
+			border: 5px inset;
+			border-radius: 25px;
+	background:linear-gradient(orange 45%, red 50%, orange 45% ,red 50%);
+			border-top-color: wheat;
+			border-bottom-color: wheat;
+			border-right-color: wheat;
+			border-left-color: wheat;
+		}
+		#Case4
+		{
+			height: 100px;
+			width: 120px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 15px;
+			border: 10px ridge wheat;
+			border-radius: 35px;
+		background:linear-gradient(orange 45%, red 50%, orange 45% ,red 50%);
+			
+		}
+		#Case5
+		{
+			height: 100px;
+			width: 110px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 15px;
+			border: 8px groove wheat;
+
+			border-radius: 35px 85px 0px 0px;
+			background:linear-gradient(orange 45%, red 50%, orange 45% ,red 50%);
+			
+		}
+		#Case6
+		{
+			height: 100px;
+			width: 120px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 15px;
+			border: 6px outset whitesmoke;
+			border-top-left-radius:25px ;
+			border-top-right-radius: 70px;
+			border-bottom-left-radius:80px ;
+			border-bottom-right-radius: 0px;
+			background:linear-gradient(orange 45%, red 50%, orange 45% ,red 50%);
+			
+		}
+		#Case7
+		{
+			height: 85px;
+			width: 120px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 15px;
+			border: 5px groove wheat;
+			border-radius: 110px 110px 110px 110px;
+			background:linear-gradient(orange 45%, red 50%, orange 45% ,red 50%);
+		}
+		#Case8
+		{
+			height: 100px;
+			width: 120px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 20px;
+			border: 4px outset;
+			border-top-left-radius:100px ;
+			border-top-right-radius: 100px;
+			border-bottom-left-radius:0px ;
+			border-bottom-right-radius: 0px;
+			background:linear-gradient(orange 45%, red 50%, orange 45% ,red 50%);
+			border-top-color: wheat;
+		}
+		#Case9
+		{
+			height: 100px;
+			width: 120px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 20px;
+			border: 35px inset wheat;
+			border-radius: 25px;
+			background:linear-gradient(orange 45%, red 50%, orange 45% ,red 50%);
+		}
+		#Case10
+		{
+			height: 150px;
+			width: 150px;
+			margin: 25px;
+			font-size: 20px;
+			text-align:justify;
+			padding: 20px;
+			border: 50px inset;
+			border-radius: 40px;
+			background:linear-gradient(orange 45%, red 50%, orange 45% ,red 50%);
+		}
+	</style>
+
+</head>
+<body>
+<div>
+	<table>
+		<tr>
+		<td><div id="case1">Case 1 </div></td>
+		<td><div id="case2">Case 2 </div></td>
+		<td><div id="case3">Case 3 </div></td>
+		<td><div id="case4">Case 4 </div></td>
+		<td><div id="case5">Case 5 </div></td>
+		</tr>
+		<tr>
+		<td><div id="case6">Case 6 </div></td>
+		<td><div id="case7">Case 7 </div></td>
+		<td><div id="case8">Case 8 </div></td>
+		<td><div id="case9">Case 9 </div></td>
+		<td><div id="case10">Case 10 </div></td>
+		</tr>
+	</table>
+</div>
+<p>Just fill without borders.</p>
+<div>
+	<table>
+		<tr>
+			<td><div class="case1">Case 1</div>
+			<td><div class="case2">Case 2</div>
+			<td><div class="case3">Case 3</div>
+			<td><div class="case4">Case 4</div>
+			<td><div class="case5">Case 5</div> </td>
+		</tr>
+		<tr>
+			<td><div class="case6">Case 6</div>
+			<td><div class="case7">Case 7</div>
+			<td><div class="case8">Case 8</div>
+			<td><div class="case9">Case 9</div>
+			<td><div class="case10">Case 10</div> </td>
+		</tr>
+	</table>
+</div>
+<p> fill & borders.</p>
+<div>
+	<table>
+		<tr>
+		<td><div id="Case1">Case 1 </div></td>
+		<td><div id="Case2">Case 2 </div></td>
+		<td><div id="Case3">Case 3 </div></td>
+		<td><div id="Case4">Case 4 </div></td>
+		<td><div id="Case5">Case 5 </div></td>
+		</tr>
+		<tr>
+		<td><div id="Case6">Case 6 </div></td>
+		<td><div id="Case7">Case 7 </div></td>
+		<td><div id="Case8">Case 8 </div></td>
+		<td><div id="Case9">Case 9 </div></td>
+		<td><div id="Case10">Case 10 </div></td>
+		</tr>
+
+	</table>
+</div>
+</body>
+</html>
