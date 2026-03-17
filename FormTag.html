@@ -1,0 +1,54 @@
+    <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form Tag</title>
+</head>
+<body>
+<form action="https://www.google.com">
+	<p> Enter Your Name::<input type="text" name="" placeholder="Type Name" maxlength="20" required> </p>
+	<p> Enter the Password ::<input type="Password" name="" placeholder="********" maxlength="10"> </p>
+	<p>Gender::<!--  type ="radio"name="" name me same nam rakhane pe grouping kar pate hai or sigle selection ke liye-->
+<input type="radio" name="gender" >Male
+<input type="radio" name="gender">Female      
+<input type="radio" name="gender">Other  
+	</p> 
+	<!-- Multiple selection ke liye ham type="checkbox" lete hai-->
+	<p>Selection Documents ::</p>
+	<p><input type="checkbox" name="">Adhar Card </p>
+	<p><input type="checkbox" name="">Pan Card </p> 
+	<p><input type="checkbox" name="">Ration Card </p>
+	<p><input type="checkbox" name="">VoterId </p>
+<!-- drop down list banane ke liye select tag ke under option tag use karte hai -->
+	<p>Select City ::</p>
+	<select>
+		<option>Choose City</option>
+		<option>Agra</option>
+		<option>Chennai</option>
+		<option>Varansi</option>
+		<option>Lucknow</option>
+	</select>
+	<!-- ctrl ke sath select karte hai to kam karega-->
+	<p>Select multiple City ::</p>
+	<select multiple>
+		<option>Choose City</option>
+		<option>Agra</option>
+		<option>Chennai</option>
+		<option>Varansi</option>
+		<option>Lucknow</option>
+	</select>
+	<p>Choose your file::<input type="file" name=""> </p>
+	<p>choose your color::<input type="color" name="">  </p>
+	<p>Date of Birth::<input type="Date" name="">  </p>
+	<p>Address :: </p>
+	<p><textarea rows="5" cols="30"></textarea> </p>
+	<p>Email::<input type="email" name=""> </p>
+	<p>Experience ::<input type="number" name="" min="0" max="10">  </p>
+	<p>Selected range ::<input type="range" name=""> </p>
+	<!-- button name ko likhane kam karta hai-->
+	<p><input type="Submit" name="" value="Register">
+	<input type="reset" name=""></p>
+</form>
+</body>
+</html>      
